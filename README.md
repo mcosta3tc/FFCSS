@@ -3,7 +3,7 @@
 A custom theme made with [MaterialFox](https://github.com/muckSponge/MaterialFox),
 using transparency and added animated New Tab logo.
 ###
-![alt text](img/image.png)
+![alt text](img/gif.gif)
 
 
 ## Installation
