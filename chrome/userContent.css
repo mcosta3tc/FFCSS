@@ -1,0 +1,111 @@
+/*!* Home & New Tab Page *!
+@-moz-document url("about:home"), url("about:newtab") {
+
+
+    .search-inner-wrapper { display: none !important;}
+
+    .logo-and-wordmark {scale: 1.5; margin-top: 110px;}
+
+    .icon-settings {fill: #00AABB !important;}
+    .icon-settings:hover, .icon-settings:active {background-color: #1F1F2B !important;}
+
+}*/
+
+
+/* Remove wordmark, push logo to middle, increase size of logo */
+@-moz-document url(about:newtab), url(about:home) {
+    body {
+       background-color: #000!important;
+       background-image: url("images/51b18863386173.5aaf74e26ada0.gif")!important;
+       background-position: center!important;
+       background-size: 50% !important;
+       background-repeat: no-repeat!important;
+    }
+    .search-wrapper .logo-and-wordmark {
+        align-items: center !important;
+        display: flex !important;
+        justify-content: center !important;
+        margin-bottom: 30px !important;
+    }
+    .search-wrapper .logo-and-wordmark .logo {
+        background: url("https://i.redd.it/g7y4y473e8161.png") no-repeat center !important;
+        background-size: 100px !important;
+        display: inline-block !important;
+        height: 180px !important;
+        width: 180px !important;
+        display: none !important;
+    }
+      .search-wrapper .logo-and-wordmark .wordmark {
+            display: none !important;
+        }
+    .search-inner-wrapper {
+        display: none !important;
+    }
+    .logo-and-wordmark {
+        scale: 1.4;
+        margin-top: 110px;
+        opacity: .9;
+    }
+}
+
+/* Mozilla logo in top right of about:home */
+@-moz-document url(about:newtab), url(about:home) {
+    button.icon.icon-settings {
+        background: url("images/g7y4y473e8161.png") no-repeat center !important;
+        background-size: 6.15rem !important;
+        padding-left: 50px !important;
+        padding-bottom: 7px !important;
+        display: flex !important;
+        opacity: 1 !important;
+        height: 6.15rem !important;
+        width: 170px !important;
+        margin-top: 20px !important;
+    }
+
+}
+
+
+.moz-reader-content img[moz-reader-center] {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px !important;
+}
+
+body.dark {
+    background-color: #181a1b !important;
+    color: #e9e9e9 !important;
+}
+
+body.dark {
+    --toolbar-bgcolor: #181a1b !important;
+    --toolbar-border: #181a1b !important;
+    --toolbar-hover: #737373 !important;
+    --popup-bgcolor: #4b4a50 !important;
+    --popup-border: #65646a !important;
+    --font-color: #e9e9e9 !important;
+    --icon-fill: #e9e9e9 !important;
+}
+
+.domain {
+    color: #FFC312 !important;
+}
+
+.moz-reader-content a:link, .moz-reader-content a:link:hover, .moz-reader-content a:link:active {
+    color: #FFC312 !important;
+}
+
+.moz-reader-content a:visited {
+    color: #c69e0e !important;
+}
+
+.moz-reader-content img {
+    border-radius: 8px !important;
+}
+
+.wordmark {
+    fill: #ffffff !important;
+}
+
+.App_headerContainer_3kGZpFfWkhG6jd33aQ6uPY {
+    opacity: 0 !important;
+}

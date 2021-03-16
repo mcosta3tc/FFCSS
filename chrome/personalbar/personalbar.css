@@ -1,0 +1,7 @@
+#navigator-toolbox toolbarbutton.bookmark-item:not(.subviewbutton)
+{
+	padding: 6px!important;
+
+	/* border: #181a1b!important; */
+	border: none !important;
+}
