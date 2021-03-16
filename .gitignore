@@ -108,5 +108,4 @@ fabric.properties
 *.iml
 out
 gen
-img
 chrome/.idea
